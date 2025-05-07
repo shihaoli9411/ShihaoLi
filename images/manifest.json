@@ -1,0 +1,93 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://shihaoli9411.github.io/ShihaoLi/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in shihaoli9411/ShihaoLi project"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://shihaoli9411.github.io/ShihaoLi/images/demo/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "demo"
+                ]
+            },
+            "height": 1600,
+            "width": 1200,
+            "items": [
+                {
+                    "id": "https://shihaoli9411.github.io/ShihaoLi/images/demo/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://shihaoli9411.github.io/ShihaoLi/images/demo/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://shihaoli9411.github.io/ShihaoLi/images/demo/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 38,
+                                                "height": 50
+                                            },
+                                            {
+                                                "width": 75,
+                                                "height": 100
+                                            },
+                                            {
+                                                "width": 150,
+                                                "height": 200
+                                            },
+                                            {
+                                                "width": 300,
+                                                "height": 400
+                                            },
+                                            {
+                                                "width": 600,
+                                                "height": 800
+                                            },
+                                            {
+                                                "width": 1200,
+                                                "height": 1600
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1200,
+                                        "@id": "https://shihaoli9411.github.io/ShihaoLi/images/demo",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 1600,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://shihaoli9411.github.io/ShihaoLi/images/demo/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
